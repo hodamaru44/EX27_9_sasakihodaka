@@ -15,7 +15,7 @@ namespace ConstructorSampe
                  InteractiveInput.InputFloat("辺A："),
                  InteractiveInput.InputFloat("辺B："),
                  InteractiveInput.InputFloat("辺C："));
-            Console.WriteLine($"辺は" + Math.Sqrt(triangleedge.GetHeronsFormula()));
+            Console.WriteLine($"辺は" + Math.Sqrt(triangleedge.GetArea()));
         }
     }
 }
