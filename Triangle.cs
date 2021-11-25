@@ -31,7 +31,7 @@ namespace ConstructorSampe
 
         public float GetArea()
         {
-            return (Area);
+            return Area;
         }
     }
 }
